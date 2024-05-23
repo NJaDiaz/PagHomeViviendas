@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chalet Clásico</title>
+    <script src="js/header.js"></script>
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="menu.css">
+    <script src="js/app.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<script src="js/footer.js"></script>
+
+</head>
+<body>
+    <header>
+        <script>document.write(header_item)</script>
+    </header>
+    
+<section id="tipo1">
+    <div class="casa">
+        <h1>Chalet Clásico</h1>
+        <p>Este encantador chalet, es un verdadero tesoro arquitectónico por la rapidez y diseño económico.  
+          Su estilo clásico y la elección de materiales de alta calidad lo convierten en un lugar acogedor y lleno de carácter.
+          La estructura de ladrillo visto no solo es estéticamente atractiva, sino también duradera y resistente. 
+          Cuenta con cocina/comedor, 1 baño y 1/2 dormitorios</p>
+        
+         <div class="slideshowContainer">
+  
+            
+              <img class="imageSlides" src="media/clasico/1.jpg" alt="imagenCasa1">
+              <img class="imageSlides" src="media/clasico/2.jpg" alt="imagenCasa2">
+              <img class="imageSlides" src="media/clasico/3.jpg" alt="imagenCasa3">
+              <img class="imageSlides" src="media/clasico/4.jpg" alt="imagenCasa4">
+              <img class="imageSlides" src="media/clasico/5.jpg" alt="imagenCasa5">
+              <img class="imageSlides" src="media/clasico/6.jpg" alt="imagenCasa6">
+              <img class="imageSlides" src="media/clasico/7.jpg" alt="imagenCasa7">
+              <img class="imageSlides" src="media/clasico/8.jpg" alt="imagenCasa8">
+              
+          
+              <span id ="leftArrow" class="slideshowArrow">&#8249;</span>
+              <span id ="rightArrow" class="slideshowArrow">&#8250;</span>
+              
+              <div class="slideshowCircles">
+            
+                <span class="circle dot"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+              </div>
+              <script src="js/app.js"></script>
+            </div>
+    </div>
+</section>
+
+<footer>
+  <script>document.write(footer_item)</script>
+  </footer>
+</body>
+</html>

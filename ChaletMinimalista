@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chalet Minimalista</title>
+    <script src="js/header.js"></script>
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="menu.css">
+    <script src="js/app.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<script src="js/footer.js"></script>
+
+</head>
+<body>
+    <header>
+        <script>document.write(header_item)</script>
+    </header>
+    
+<section id="tipo1">
+    <div class="casa">
+        <h1>Chalet Minimalista</h1>
+        <p>El modelo cuenta con 2 dormitorios, 2 baños uno de ellos en suite, 1 cocina funcional y salón comedor abierto que ofrece un espacio de convivencia ideal para la familia. 
+          Cada centímetro de la casa está optimizado para proporcionar la máxima funcionalidad.
+      <br> con materiales sostenibles y técnicas de construcción modernas, es una solución habitacional que no compromete la calidad ni el diseño. 
+        Su estructura resistente y aislamiento térmico de alta eficiencia garantizan un hogar cálido en invierno y fresco en verano, reduciendo los costos de energía.</p>
+        
+         <div class="slideshowContainer">
+  
+           
+              <img class="imageSlides" src="media/tipo/t1.jpg" alt="Muestra1">
+              <img class="imageSlides" src="media/tipo/t2.jpg" alt="Muestra2">
+              <img class="imageSlides" src="media/tipo/t3.jpg" alt="Muestra3">
+              <img class="imageSlides" src="media/tipo/F1.png" alt="Muestra3">
+              
+          
+              <span id ="leftArrow" class="slideshowArrow">&#8249;</span>
+              <span id ="rightArrow" class="slideshowArrow">&#8250;</span>
+              
+              <div class="slideshowCircles">
+            
+                <span class="circle dot"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+              </div>
+              <script src="js/app.js"></script>
+            </div>
+    </div>
+</section>
+
+<footer>
+<script>document.write(footer_item)</script>
+</footer>
+</body>
+</html>

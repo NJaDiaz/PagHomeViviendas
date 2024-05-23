@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chalet Estancia</title>
+    <script src="js/header.js"></script>
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="menu.css">
+    <script src="js/app.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<script src="js/footer.js"></script>
+
+</head>
+<body>
+    <header>
+        <script>document.write(header_item)</script>
+    </header>
+    
+<section id="tipo1">
+    <div class="casa">
+        <h1>Chalet Estancia</h1>
+        <p>Descubre nuestro exclusivo Chalet Estancia, diseñado para ofrecer el máximo confort y funcionalidad en un entorno espacioso y acogedor. 
+          Esta propiedad es ideal para familias que buscan una combinación perfecta de estilo y practicidad.
+          Cocina/Comedor, con acabados de alta calidad se fusionan armoniosamente con el comedor, creando un espacio ideal para compartir momentos.
+          El chalet cuenta con un baño diseñado con materiales de primera calidad y una distribución optimizada para proporcionar comodidad y estilo.  Ofrecemos opciones de 2 o 3 dormitorios, cada uno diseñado para maximizar el espacio.
+          La distribución del chalet ha sido cuidadosamente planificada para ofrecer espacios amplios y fluidos.
+
+
+        </p>
+        
+         <div class="slideshowContainer">
+  
+              <img class="imageSlides" src="media/estancia/7.png" alt="Plano">
+              <img class="imageSlides" src="media/estancia/6.png" alt="Plano">
+              <img class="imageSlides" src="media/estancia/1.jpg" alt="Casa1">
+              <img class="imageSlides" src="media/estancia/2.jpg" alt="Casa3">
+              <img class="imageSlides" src="media/estancia/3.jpg" alt="Casa3">
+              
+       
+              <span id ="leftArrow" class="slideshowArrow">&#8249;</span>
+              <span id ="rightArrow" class="slideshowArrow">&#8250;</span>
+              
+              <div class="slideshowCircles">
+        
+                <span class="circle dot"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+              </div>
+              <script src="js/app.js"></script>
+            </div>
+    </div>
+</section>
+
+<footer>
+  <script>document.write(footer_item)</script>
+  </footer>
+</body>
+</html>
