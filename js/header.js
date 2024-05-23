@@ -1,5 +1,5 @@
 const header_item = `<header class="header">
-<a href="./index.html#hero" class="logo">Home<span>Viviendas</span></a>
+<a href="index.html" class="logo">Home<span>Viviendas</span></a>
 <input type="checkbox" id="side-menu" class="side-menu">
 <label for="side-menu" class="hamb"><span class="hamb-line"></span></label>
 <nav class="nav">
