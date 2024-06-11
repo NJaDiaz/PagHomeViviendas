@@ -364,6 +364,90 @@ text-shadow: 3px 3px 2px rgba(0,0,0,0.6);
   }
 
 
+  #formu{
+    background-color: #5e5e5e;
+    padding: 20px;
+}
+
+  .desc_contact, .formulario {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.cont_tit {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.desc_contact h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.desc_contact h4 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #333;
+}
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.formulario input, textarea, select, .enviar {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.formulario .enviar {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario button:hover {
+    background-color: #45a049;
+}
+
+#error-container, #success-container {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#error-container {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+#success-container {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+
+
 
 footer{
     display: flex;

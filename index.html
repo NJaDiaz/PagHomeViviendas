@@ -204,6 +204,48 @@
           
         </div> 
     </section>
+    <section id="formu">
+        <div class="desc_contact">
+            <div class="cont_tit">
+            <h2>No dudes en contactarte con nostros si deseas recibir mas información y descripción sobre nuestros servicios.</h2>
+
+            <h4>Comunicate con nosotros llenando el siguiente formulario, te responderemos a la brevedad.</h4>
+        </div>
+          <main class="formulario">
+            <form action="https://formsubmit.co/contacto@homeviviendas.com" method="POST">
+              <label for="name">Nombre:</label>
+              <input type="text" id="name" name="name" required>
+        
+              <label for="email">Correo Electrónico:</label>
+              <input type="email" id="email" name="email" required>
+        
+              <label for="phone">Teléfono:</label>
+              <input type="tel" id="phone" name="phone" required>
+        
+              <label for="message">Mensaje:</label>
+              <textarea id="message" name="message" maxlength="500" required></textarea>
+        
+              <label for="service">Servicio:</label>
+              <select id="service" name="service" required>
+                <option value="construccion">Construcción</option>
+                <option value="remodelacion">Remodelación</option>
+                <option value="arquitectura">Ampliación</option>
+                <option value="arquitectura">Asesoria</option>
+                <option value="arquitectura">Ofertas</option>
+              </select>
+        
+              <button class="enviar" type="submit">Enviar</button>
+            </form>
+            
+            <div id="error-container"></div>
+            <div id="success-container"></div>
+          </main>
+        </div>
+        
+        <script src="js/contacto.js"></script>
+        
+
+    </section>
 
 
 <footer>

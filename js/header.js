@@ -8,7 +8,7 @@ const header_item = `<header class="header">
     <li><a href="./index.html#servicios">Servicios</a></li>
     <li><a href="./index.html#productos">Productos</a></li>
     <li><a href="./index.html#promos">Nuestros Proyectos</a></li>
-    <li><a href="./index.html#contacto">Contacto</a></li>
+    <li><a href="./index.html#formu">Contacto</a></li>
     </ul>
 </nav>
 </header>`
